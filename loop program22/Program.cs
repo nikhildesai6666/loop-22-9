@@ -22,7 +22,7 @@ namespace loop_program22
                 for (int j = 1; j <=i; j++)
 
                 {
-                    Console.WriteLine("i");
+                    Console.WriteLine(j);
                 }
                 Console.WriteLine();
             }
