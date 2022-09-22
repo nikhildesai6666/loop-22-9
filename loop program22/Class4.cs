@@ -18,12 +18,20 @@ namespace loop_program22
 
             for (int i = 1; i <= 5; i++)
             {
-                for (int j = 1; j <= i; j++)
+                for (int j = i; j <= 5; j++)
+                {
+                    Console.WriteLine(" ");
+
+                }
+                for (int k = 1; k <(i *  2); k++)
                 {
                     Console.WriteLine("*");
 
                 }
                 Console.WriteLine();
+                {
+                    Console.ReadLine();
+                }
             }
         }
     }
